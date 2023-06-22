@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classy UI | Card</title>
+    <link rel="stylesheet" href="./card.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div>
+        <a href="index.html"
+          ><h2 style="color: white">Classy<u></u> <u>UI</u></h2></a
+        >
+      </div>
+      <div class="list-container">
+        <ul class="list">
+            <li class="li"><a href="https://twitter.com/AkashAk50675432"><i class="fa-brands fa-twitter fa-2x"></i></a></li>
+            <li class="li"><a href="https://github.com/leader-akash"><i class="fa-brands fa-github fa-2x"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- sidebar -->
+
+    <div class="sidebar">
+      <h2 class="start">Let's Start !</h2>
+      <div class="designs">
+        <a href="./documentation.html">Documentation</a>
+      </div>
+      <div class="designs"><a href="./typography.html">Typography</a></div>
+      <div class="components">Components</div>
+      <div class="designs"><a href="./alert.html">Alert </a></div>
+      <div class="designs"><a href="./avatar.html">Avatar </a></div>
+      <div class="designs"><a href="./badge.html">Badge </a></div>
+      <div class="designs"><a href="./button.html">Button </a></div>
+      <div class="designs"><a href="./card.html">Card</a></div>
+    </div>
+
+    <!-- content page -->
+    <section class="content-page">
+      <!-- card section -->
+
+      <h2 class="headings" id="card-div">Card</h2>
+      <p class="description">
+        Cards are used to display content and action on a particular topic.
+      </p>
+      <h3>Vartical cards</h3>
+      <p class="description">
+        It has 3 variants normal card, card with cancel button & card with badge
+      </p>
+
+      <section class="card-section" id="card-bg">
+        <section class="card">
+          <div class="card-container">
+            <div>
+              <img class="card-img1" src="./images/card-img.png" alt="card" />
+            </div>
+            <p class="card-info">
+              ASUS ROG Strix G15 Ryzen 9 Octa Core 5900HX - (16 GB/512 GB
+              SSD/Windows 10 Home/4 GB Graphic...
+            </p>
+            <div class="card-price">
+              <div
+                style="
+                  color: red;
+                  font-weight: bold;
+                  font-size: 16px;
+                  padding-right: 20px;
+                "
+              >
+                ₹96,990
+              </div>
+              <div style="font-size: 14px"><strike>₹1,36,990</strike></div>
+            </div>
+            <div class="card-button">
+              <button class="add">Add to Cart</button>
+              <div class="like"><i class="far fa-heart fa-2x"></i></div>
+
+              <div class="share">
+                <i class="fa-solid fa-share-nodes fa-2x"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-container">
+            <div class="card-cancel">X</div>
+            <div>
+              <img class="card-img" src="./images/card-img.png" alt="card" />
+            </div>
+            <p class="card-info">
+              ASUS ROG Strix G15 Ryzen 9 Octa Core 5900HX - (16 GB/512 GB
+              SSD/Windows 10 Home/4 GB Graphic...
+            </p>
+            <div class="card-price">
+              <div
+                style="
+                  color: red;
+                  font-weight: bold;
+                  font-size: 16px;
+                  padding-right: 20px;
+                "
+              >
+                ₹96,990
+              </div>
+              <div style="font-size: 14px"><strike>₹1,36,990</strike></div>
+            </div>
+            <div class="card-button">
+              <button class="add">Add to Cart</button>
+              <div class="like"><i class="far fa-heart fa-2x"></i></div>
+
+              <div class="share">
+                <i class="fa-solid fa-share-nodes fa-2x"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="card">
+          <div class="card-container1">
+            <div class="card-header">
+              <div class="badge green card-badge">TRENDING</div>
+              <div class="card-cancel">X</div>
+            </div>
+
+            <div>
+              <img class="card-img2" src="./images/card-img.png" alt="card" />
+            </div>
+            <p class="card-info1">
+              ASUS ROG Strix G15 Ryzen 9 Octa Core 5900HX - (16 GB/512 GB
+              SSD/Windows 10 Home/4 GB Graphic...
+            </p>
+            <div class="card-price1">
+              <div
+                style="
+                  color: red;
+                  font-weight: bold;
+                  font-size: 16px;
+                  padding-right: 20px;
+                "
+              >
+                ₹96,990
+              </div>
+              <div style="font-size: 14px"><strike>₹1,36,990</strike></div>
+            </div>
+            <div class="card-button1">
+              <button class="add">Add to Cart</button>
+              <div class="like"><i class="far fa-heart fa-2x"></i></div>
+
+              <div class="share">
+                <i class="fa-solid fa-share-nodes fa-2x"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <h4>Code Snippet</h4>
+      <div class="code-snippet">
+        <iframe
+          class="code-snippet-code"
+          src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C0%29&t=vscode&wt=none&l=dart&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522card%2522%253E%2520%250A%2509%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2509%2509%253Cdiv%253E%253Cimg%2520class%253D%2522card-img1%2522%2520src%253D%2522.%252Fimages%252Fcard-img.png%2522%2520alt%253D%2522card%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-info%2522%253EASUS%2520ROG%2520Strix%2520G15%2520Ryzen%25209%2520Octa%2520Core%25205900HX%2520-%2520%2816%2520GB%252F512%2520GB%2520SSD%252FWindows%252010%2520Home%252F4%2520GB%2520Graphic...%253C%252Fp%253E%250A%2509%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520style%253D%2522color%253A%2520red%253B%2520font-weight%253A%2520bold%253B%2520font-size%253A%252016px%253B%2520padding-right%253A%252020px%2522%253E%25E2%2582%25B996%252C990%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520style%253D%2522font-size%253A%252014px%253B%2522%253E%2520%253Cstrike%253E%25E2%2582%25B91%252C36%252C990%253C%252Fstrike%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-button%2522%253E%250A%2509%253Cbutton%2520class%253D%2522add%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522like%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522share%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-share-nodes%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fsection%253E%250A%250Asection%2520class%253D%2522card%2522%253E%2520%250A%2509%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-cancel%2522%253EX%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%253E%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522.%252Fimages%252Fcard-img.png%2522%2520alt%253D%2522card%2522%253E%253C%252Fdiv%253E%250A%2509%2509%253Cp%2520class%253D%2522card-info%2522%253EASUS%2520ROG%2520Strix%2520G15%2520Ryzen%25209%2520Octa%2520Core%25205900HX%2520-%2520%2816%2520GB%252F512%2520GB%2520SSD%252FWindows%252010%2520Home%252F4%2520GB%2520Graphic...%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520style%253D%2522color%253A%2520red%253B%2520font-weight%253A%2520bold%253B%2520font-size%253A%252016px%253B%2520padding-right%253A%252020px%2522%253E%25E2%2582%25B996%252C990%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520style%253D%2522font-size%253A%252014px%253B%2522%253E%2520%253Cstrike%253E%25E2%2582%25B91%252C36%252C990%253C%252Fstrike%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-button%2522%253E%250A%253Cbutton%2520class%253D%2522add%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522like%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522share%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-share-nodes%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fsection%253E%250A%250A%253Csection%2520class%253D%2522card%2522%253E%2520%250A%253Cdiv%2520class%253D%2522card-container1%2522%253E%250A%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%253Cdiv%2520class%253D%2522badge%2520green%2520card-badge%2522%253ETRENDING%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-cancel%2522%253EX%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%253Cimg%2520class%253D%2522card-img2%2522%2520src%253D%2522.%252Fimages%252Fcard-img.png%2522%2520alt%253D%2522card%2522%253E%253C%252Fdiv%253E%250Ap%2520class%253D%2522card-info1%2522%253EASUS%2520ROG%2520Strix%2520G15%2520Ryzen%25209%2520Octa%2520Core%25205900HX%2520-%2520%2816%2520GB%252F512%2520GB%2520SSD%252FWindows%252010%2520Home%252F4%2520GB%2520Graphic...%253C%252Fp%253E%250A%253Cdiv%2520class%253D%2522card-price1%2522%253E%250A%253Cdiv%2520style%253D%2522color%253A%2520red%253B%2520font-weight%253A%2520bold%253B%2520font-size%253A%252016px%253B%2520padding-right%253A%252020px%2522%253E%25E2%2582%25B996%252C990%253C%252Fdiv%253E%250A%253Cdiv%2520style%253D%2522font-size%253A%252014px%253B%2522%253E%2520%253Cstrike%253E%25E2%2582%25B91%252C36%252C990%253C%252Fstrike%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-button1%2522%253E%250A%253Cbutton%2520class%253D%2522add%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522like%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522share%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-share-nodes%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </div>
+
+      <!-- horizontal card -->
+
+      <h3>Horizontal Card</h3>
+      <p class="description">
+        It has 3 variants normal card, card with cancel button & card with badge
+      </p>
+
+      <section class="card" id="card-horizontal">
+        <div class="card-container-horiz">
+          <div class="card-header">
+            <div class="badge green card-badge-horiz">TRENDING</div>
+            <div class="card-cancel-horiz">X</div>
+          </div>
+          <div class="card-padding">
+            <div>
+              <img
+                class="card-img-horiz"
+                src="./images/card-img.png"
+                alt="card"
+              />
+            </div>
+            <div>
+              <p class="card-info-horiz">
+                ASUS ROG Strix G15 Ryzen 9 Octa Core 5900HX - (16 GB/512 GB
+                SSD/Windows 10 Home/4 GB Graphic...
+              </p>
+              <div class="card-price-horiz">
+                <div
+                  style="
+                    color: red;
+                    font-weight: bold;
+                    font-size: 16px;
+                    padding-right: 20px;
+                  "
+                >
+                  ₹96,990
+                </div>
+                <div style="font-size: 14px"><strike>₹1,36,990</strike></div>
+              </div>
+              <div class="card-button-horiz">
+                <button class="add">Add to Cart</button>
+                <div class="like"><i class="far fa-heart fa-2x"></i></div>
+
+                <div class="share">
+                  <i class="fa-solid fa-share-nodes fa-2x"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h4>Code Snippet</h4>
+      <div class="code-snippet">
+        <iframe
+          class="code-snippet-code2"
+          src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C0%29&t=vscode&wt=none&l=dart&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container-horiz%2522%253E%250A%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%253Cdiv%2520class%253D%2522badge%2520green%2520card-badge-horiz%2522%253ETRENDING%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-cancel-horiz%2522%253EX%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-padding%2522%253E%250A%253Cdiv%253E%250A%253Cimg%2520class%253D%2522card-img-horiz%2522%2520src%253D%2522.%252Fimages%252Fcard-img.png%2522%2520alt%253D%2522card%2522%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%253Cp%2520class%253D%2522card-info-horiz%2522%253EASUS%2520ROG%2520Strix%2520G15%2520Ryzen%25209%2520Octa%2520Core%25205900HX%2520-%2520%2816%2520GB%252F512%2520GB%2520SSD%252FWindows%252010%2520Home%252F4%2520GB%2520Graphic...%253C%252Fp%253E%250A%253Cdiv%2520class%253D%2522card-price-horiz%2522%253E%250A%253Cdiv%2520%250A%2509style%253D%2522color%253A%2520red%253B%250A%2520%2520%2520%2520font-weight%253A%2520bold%253B%250A%2520%2520%2520%2520font-size%253A%252016px%253B%250A%2520%2520%2520%2520padding-right%253A%252020px%253B%250A%2520%2520%2520%2520%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%25E2%2582%25B996%252C990%250A%253C%252Fdiv%253E%250A%253Cdiv%2520style%253D%2522font-size%253A%252014px%2522%253E%253Cstrike%253E%25E2%2582%25B91%252C36%252C990%253C%252Fstrike%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-button-horiz%2522%253E%250A%253Cbutton%2520class%253D%2522add%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522like%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522share%2522%253E%250A%253Ci%2520class%253D%2522fa-solid%2520fa-share-nodes%2520fa-2x%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 680px; height: 930px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    </section>
+  </body>
+</html>

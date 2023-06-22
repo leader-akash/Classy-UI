@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classy UI | Badge</title>
+    <link rel="stylesheet" href="./badge.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div>
+        <a href="index.html"
+          ><h2 style="color: white">Classy<u></u> <u>UI</u></h2></a
+        >
+      </div>
+      <div class="list-container">
+        <ul class="list">
+          <li class="li"><a href="https://twitter.com/AkashAk50675432"><i class="fa-brands fa-twitter fa-2x"></i></a></li>
+            <li class="li"><a href="https://github.com/leader-akash"><i class="fa-brands fa-github fa-2x"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- sidebar -->
+
+    <div class="sidebar">
+      <h2 class="start">Let's Start !</h2>
+      <div class="designs">
+        <a href="./documentation.html">Documentation</a>
+      </div>
+      <div class="designs"><a href="./typography.html">Typography</a></div>
+      <div class="components">Components</div>
+      <div class="designs"><a href="./alert.html">Alert </a></div>
+      <div class="designs"><a href="./avatar.html">Avatar </a></div>
+      <div class="designs"><a href="./badge.html">Badge </a></div>
+      <div class="designs"><a href="./button.html">Button </a></div>
+      <div class="designs"><a href="./card.html">Card</a></div>
+    </div>
+
+    <!-- content page -->
+    <section class="content-page">
+      <!-- badge tags -->
+      <h2 class="headings" id="badge-container">Badge</h2>
+
+      <p class="description">
+        Badges are being used to display a notification count or status
+        information.
+      </p>
+
+      <h3>Badge tags</h3>
+
+      <section class="badge" id="badge-section">
+        <div class="badge green">NEW</div>
+        <div class="badge red">SALE</div>
+        <div class="badge blue">TRENDING</div>
+        <div class="badge green2">LATEST</div>
+        <div class="badge yellow">BEST SELLER</div>
+      </section>
+
+      <h4>Code Snippet</h4>
+      <div class="code-snippet">
+        <iframe
+          class="code-snippet-code"
+          src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C0%29&t=vscode&wt=none&l=dart&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2520green%2522%253ENEW%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2520red%2522%253ESALE%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2520blue%2522%253ETRENDING%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2520green2%2522%253ELATEST%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2520yellow%2522%253EBEST%2520SELLER%253C%252Fdiv%253E"
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </div>
+
+      <h3>Badge on Icons</h3>
+
+      <section id="badge-Onicon">
+        <span class="badge-icon">
+          <span class="badge blue">20+</span>
+          <i class="fas fa-shopping-cart"></i>
+        </span>
+
+        <span class="badge-icon">
+          <span class="badge yellow">20+</span>
+          <i class="fas fa-bell"></i>
+        </span>
+        <span class="badge-icon">
+          <span class="badge red">20+</span>
+          <i class="fas fa-heart"></i>
+        </span>
+      </section>
+
+      <h4>Code Snippet</h4>
+      <div class="code-snippet">
+        <iframe class="code-snippet-code2"
+        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C0%29&t=vscode&wt=none&l=dart&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522badge-icon%2522%253E%250A%2509%253Cspan%2520class%253D%2522badge%2520blue%2522%253E20%252B%253C%252Fspan%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%253C%252Fspan%253E%250A%250A%253Cspan%2520class%253D%2522badge-icon%2522%253E%250A%2509%253Cspan%2520class%253D%2522badge%2520yellow%2522%253E20%252B%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2522%253E%253C%252Fi%253E%250A%253C%252Fspan%253E%250A%250A%253Cspan%2520class%253D%2522badge-icon%2522%253E%250A%2509%253Cspan%2520class%253D%2522badge%2520red%2522%253E20%252B%253C%252Fspan%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%253C%252Fspan%253E"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      </div>
+
+    </section>
+  </body>
+</html>
