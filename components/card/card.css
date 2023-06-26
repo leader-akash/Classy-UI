@@ -215,13 +215,13 @@ h4{
 }
 
 .card-img1{
-    width: 220px;
+    width: 210px;
     margin-top: 30px;
 }
 
 
 .card-img{
-    width: 220px;
+    width: 210px;
 }
 
 .card-info{
@@ -302,7 +302,7 @@ h4{
 }
 
 .card-img2{
-    width: 220px;
+    width: 210px;
     margin-left: 1.5rem;
 }
 
@@ -367,7 +367,7 @@ h4{
 #card-horizontal{
     padding: 1rem;
     margin: 1rem 0 2rem 0;
- 
+    display: flex;
     justify-content: center;
     background-color: #e5f6fd;
     width: 80%;
