@@ -1,7 +1,7 @@
-@import "./components/alert/alert.css";
-@import "./components/avatar/avatar.css";
-@import "./components/badge/badge.css";
-@import "./components/button/button.css";
-@import "./components/card/card.css";
-@import "./components/image/image.css";
-@import "./components/list/list.css";
+@import "./components/alert/_alert.css";
+@import "./components/avatar/_avatar.css";
+@import "./components/badge/_badge.css";
+@import "./components/button/_button.css";
+@import "./components/card/_card.css";
+@import "./components/image/_image.css";
+@import "./components/list/_list.css";
