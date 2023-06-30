@@ -40,7 +40,7 @@ body{
    padding: 10px;
 }
 
-a:hover{
+.index-link:hover{
    color: white;
 }
 
@@ -170,12 +170,10 @@ h3{
     display: flex;
     justify-content: space-around;
 }
-.nav-container a{
-    text-decoration: none;
-}
 
 .nav-container h1 {
     margin-top: 25px;
+    cursor: pointer;
 }
 .nav-container h1:hover{
     color: green !important;
@@ -216,9 +214,88 @@ button{
 
 
 
+/* 2nd */
+.nav-two{
+    padding: 1rem;
+    margin: 1rem 0 0rem 0;
+    /* text-align: right; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    background-color: #e5f6fd;
+    width: 80%;
+    border-radius: 0 30px 0 30px;
+    border: solid 1px var(--border-color);
+    background-color: var(--border-background);
+    /* display: inline; */
+}
+
+.nav-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 
+.nav-two-container{
+    height: 4rem;
+    width: 100%;
+    background-color: #f8cb46;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+
+}
+
+.search-bar{
+    border: solid 1px white;
+    height: 33px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 2px 5px;
+    margin-left: 5px;
+}
+
+.search-bar i{
+    background-color: #f8cb46;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search-bar .search-input{
+    width: 350px;
+    height: 28px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 0 8px;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 11px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item-list{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.sign-in{
+    background-color: rgb(36, 175, 36);
+    /* background-color: transparent; */
+    height: 40px;
+    color: white;
+    border: none;
+    /* box-shadow: #737373; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    margin-right: 10px;
+}
 
 
+/*  */
 
-
+.code-snippet-code2{
+    width: 680px; height: 700px; border:0; transform: scale(1); overflow:hidden
+}
