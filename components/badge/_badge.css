@@ -109,8 +109,13 @@ a{
     cursor: pointer;
 }
 
-.sidebar .designs.bold a {
+
+.sidebar .designs.bold {
     font-weight: bold;
+  }
+  
+  .sidebar .designs.bold a {
+    font-weight: inherit;
     color: var(--primary-color);
   }
 
