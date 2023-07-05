@@ -40,7 +40,7 @@ body{
    padding: 10px;
 }
 
-a:hover{
+.index-link:hover{
    color: white;
 }
 
@@ -54,24 +54,21 @@ a{
 /* sidebar */
 
 .sidebar{
-    width: 210px;
-    height: calc(100vh - 8.125rem);
-    position: fixed;
-    border-right: solid 3px var(--primary-color); 
-    position: fixed;
-    overflow-y: auto;
-    top: 6.2rem;
-    bottom: 0;
-    height: calc(100vh - 8.125rem);
-    display: flex;
-    flex-direction: column;
-    
+  width: 210px !important;
+  height: calc(100vh - 8.125rem) !important;
+  position: fixed  !important;
+  border-right: solid 3px var(--primary-color) !important; 
+  position: fixed !important;
+  overflow-y: auto !important;
+  top: 6.2rem !important;
+  display: flex!important;
+  flex-direction: column!important;
+  
 }
 
 .sidebar::-webkit-scrollbar {
     width: 0;
   }
-
 .sidebar .start{
     margin: 1.5rem;
     color: #737373
@@ -137,27 +134,80 @@ h3{
     font-size: 1.5rem;
 }
 
-.image-section{
-    background-color: #e5f6fd;
+
+/* input section */
+
+.input-section{
     padding: 1rem;
+    margin: 1rem 0 0rem 0;
+    background-color: #e5f6fd;
     width: 80%;
     border-radius: 0 30px 0 30px;
     border: solid 1px var(--border-color);
     background-color: var(--border-background);
-    margin-bottom: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+
+.input-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .input-container h2 {
     text-align: center;
-}
+    margin-bottom: 1.3rem;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .input-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-container form div {
+    margin-bottom: 10px;
+  }
 
-.img-setting{
-    width: 85%;
-    height: 40%;
-   
-}
+  .input-container form div  .form-inputs{
+    margin-bottom: 2px;
+    color: #525050;
+  }
+  
+  .input-container form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .input-container form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .input-container form button[type="submit"]:hover {
+    background-color: #4499ee;
+  }
+  
+  #errorContainer {
+    margin: 10px 0 15px 0;
+    color: red !important;
+    text-align: center;
+  }
+  
 
-.code-snippet{
+  .code-snippet{
     padding: 1rem 1rem 0 1rem;
     margin: 1rem 0 3rem 0;
    display: flex;
@@ -171,13 +221,14 @@ h3{
     
 }
 
+
 .code-snippet-code{
-    width: 680px; height: 215px; border:0; transform: scale(1); overflow:hidden;
+    width: 760px; height: 786px; border:0; transform: scale(1); overflow:hidden
+ 
 }
 
 
-.img-round{
-    width: 150px;
-    height: 120px;
-   border-radius: 50%;
-}
+
+
+
+

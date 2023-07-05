@@ -52,14 +52,22 @@ a{
 
 
 /* sidebar */
-
 .sidebar{
-    width: 200px;
-    height: 100%;
-    position: fixed;
-    border-right: solid 3px var(--primary-color); 
+    width: 210px !important;
+    height: calc(100vh - 8.125rem) !important;
+    position: fixed  !important;
+    border-right: solid 3px var(--primary-color) !important; 
+    position: fixed !important;
+    overflow-y: auto !important;
+    top: 6.2rem !important;
+    display: flex!important;
+    flex-direction: column!important;
+    
 }
 
+.sidebar::-webkit-scrollbar {
+    width: 0;
+  }
 .sidebar .start{
     margin: 1.5rem;
     color: #737373

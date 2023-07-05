@@ -5,4 +5,5 @@
 @import "./components/card/_card.css";
 @import "./components/image/_image.css";
 @import "./components/list/_list.css";
-@import "./components/navbar/_navbar.css"
+@import "./components/navbar/_navbar.css";
+@import "./style.css";
