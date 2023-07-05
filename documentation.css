@@ -107,6 +107,15 @@ a{
     cursor: pointer;
 }
 
+.sidebar .designs.bold a {
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+/* .sidebar #link-active:active{
+    color: var(--primary-color) !important;  
+
+} */
+
 /* content page */
 
 .content-page{
