@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classy UI | Navbar</title>
+    <link rel="stylesheet" href="https://classyui.netlify.app/main.css"/>
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://classyui.netlify.app/main.css"/>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div>
+            <a class="index-link" href="../../index.html">
+                <h2 style="color: white">Classy<u></u> <u>UI</u></h2>
+            </a>
+        </div>
+        <div class="list-container">
+            <ul class="list">
+                <li class="li"><a href="https://twitter.com/AkashAk50675432" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a></li>
+            <li class="li"><a href="https://github.com/leader-akash" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <!-- sidebar -->
+
+    <div class="sidebar">
+        <h2 class="start">Let's Start !</h2>
+        <div class="designs">
+            <a href="../../documentation.html">Documentation</a>
+        </div>
+        <div class="designs"><a href="../../typography.html">Typography</a></div>
+        <div class="components">Components</div>
+        <div class="designs"><a href="../alert/alert.html">Alert </a></div>
+      <div class="designs"><a href="../avatar/avatar.html">Avatar </a></div>
+      <div class="designs"><a href="../badge/badge.html">Badge </a></div>
+      <div class="designs"><a href="../button/button.html">Button </a></div>
+      <div class="designs"><a href="../card/card.html">Card</a></div>
+      <div class="designs"><a href="../image/image.html">Image</a></div>
+      <div class="designs"><a href="../navbar/navbar.html">Navbar</a></div>
+      <div class="designs"><a href="../list/list.html">List</a></div>
+      <div class="designs"><a href="../login/login.html">Login</a></div>
+      <div class="designs"><a href="../signup/signup.html">Signup</a></div>
+    </div>
+
+    <!-- content page -->
+    <section class="content-page">
+        <!-- avatar section -->
+
+      <!-- 2nd -->
+
+      <h2 class="headings" id="avatar-section">Login Form</h2>
+
+      <p class="description">Forms are used to take information from the user to authenticate or save their information to the server.</p>
+
+      <section class="login-section">
+        <div class="login-container">
+            <h2>Login</h2>
+            <form id="loginForm">
+              <div>
+                <p class="form-inputs"> Email Id </p>
+                <input type="email" id="login-email" placeholder="Email" required>
+              </div>
+              <div>
+                <p class="form-inputs"> Password </p>
+                <input type="password" id="login-password" placeholder="Password" required>
+              </div>
+              <div id="login-errorContainer"></div>
+              <div>
+                <button type="submit">Login</button>
+              </div>
+            </form>
+          </div>
+      </section>
+
+      <h4>Code Snippet</h4>
+
+      <div class="code-snippet">
+        <iframe class="code-snippet-code2" 
+       
+  src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C0%29&t=vscode&wt=none&l=dart&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522login-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ELogin%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cform%2520id%253D%2522loginForm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522form-inputs%2522%253E%2520Email%2520Id%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cinput%2520type%253D%2522email%2522%2520id%253D%2522login-email%2522%2520placeholder%253D%2522Email%2522%2520required%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522form-inputs%2522%253E%2520Password%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cinput%2520type%253D%2522password%2522%2520id%253D%2522login-password%2522%2520placeholder%253D%2522Password%2522%2520required%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520id%253D%2522login-errorContainer%2522%253E%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cbutton%2520type%253D%2522submit%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2509%253C%252Fform%253E%250A%253C%252Fdiv%253E%250A"
+  style="width: 680px; height: 611px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+      </div>
+
+    </section>
+
+    <script src="../../js/main.js"></script>
+
+</body>
+
+</html>
